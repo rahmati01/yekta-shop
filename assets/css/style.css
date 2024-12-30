@@ -277,7 +277,80 @@ header-btn:hover {
 .home-ad-left {
   width: 24%;
 }
+
 .home-ad-left img {
   width: 100%;
   height: 100%;
+}
+
+/* most-sales */
+.most-sales {
+  width: 100%;
+  height: auto;
+  background-color: skyblue;
+  padding: 10px 0;
+}
+
+.most-sales h3 {
+  margin: 15px;
+  padding-top: 15px;
+  font-weight: 400;
+  font-size: large;
+}
+
+.most-sales-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.most-sales-item {
+  width: 32%;
+  padding: 20px 0;
+  border-radius: 5px;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.most-sales-item:hover {
+  border: 2px solid lightslategray;
+}
+
+.most-sales-item > img {
+  width: 80%;
+  height: 25rem;
+  border-radius: 5px;
+  outline: none;
+}
+
+.most-sales-item-firstrow,
+.most-sales-item-secondrow {
+  padding: 10px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.most-sales-item-btm {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.most-sales-item-btm button {
+  width: 100%;
+  font-family: vazir-matn;
+  padding: 11px;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.most-sales-item-btm button:hover {
+  cursor: pointer;
+  background-color: greenyellow;
 }

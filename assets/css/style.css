@@ -354,3 +354,35 @@ header-btn:hover {
   cursor: pointer;
   background-color: greenyellow;
 }
+
+/* why-us */
+.why-us {
+  margin: 20px 0;
+  width: 100%;
+  height: auto;
+}
+
+.why-us-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-us-item {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.why-us-item img {
+  width: 60%;
+  height: 10rem;
+}
+
+.why-us-item p {
+  padding: 10px 0;
+}

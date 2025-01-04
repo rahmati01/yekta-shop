@@ -178,7 +178,6 @@ header-btn:hover {
 .page-intro-left img {
   width: 90%;
   height: auto;
-  padding: 1rem;
 }
 
 /* new-products */
@@ -385,4 +384,108 @@ header-btn:hover {
 
 .why-us-item p {
   padding: 10px 0;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #213555;
+}
+
+.footer-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.footer-columns-first {
+  flex-basis: 28%;
+}
+
+.footer-columns-first h3 {
+  color: white;
+  font-weight: 400;
+}
+
+.footer-columns-first p {
+  color: white;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.footer-columns-second {
+  flex-basis: 20%;
+}
+
+.footer-columns-second h3 {
+  color: white;
+  font-weight: 400;
+}
+
+.footer-columns-second li {
+  color: white;
+  font-weight: 300;
+  padding: 5px 10px;
+}
+
+.footer-columns-second a {
+  color: white;
+}
+
+.footer-columns-second a:hover {
+  color: red;
+}
+
+.footer-columns-third {
+  flex-basis: 20%;
+}
+
+.footer-columns-third h3 {
+  color: white;
+  font-weight: 400;
+}
+
+.footer-columns-third li {
+  color: white;
+  font-weight: 300;
+  padding: 5px 10px;
+  cursor: grab;
+}
+
+.footer-columns-third li:hover {
+  color: red;
+}
+
+.footer-columns-fourth {
+  flex-basis: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-columns-fourth img {
+  width: 70px;
+  height: 70px;
+  padding: 0 5px;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.footer-bottom p {
+  color: white;
+  font-weight: 300;
+}
+
+.footer-bottom-icons img {
+  width: 40px;
+  height: 40px;
+  padding: 0 5px;
 }

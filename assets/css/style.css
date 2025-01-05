@@ -88,6 +88,18 @@ nav ul li:hover a {
   color: white;
 }
 
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-menu-icon {
+  width: 25px;
+  height: 25px;
+  margin: 0 3px;
+}
+
 header-btn {
   position: absolute;
   left: 7rem;

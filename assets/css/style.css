@@ -72,7 +72,8 @@ nav ul {
 nav ul li {
   margin-right: 20px;
   padding: 6px 11px;
-  font-weight: bold;
+  font-weight: 300;
+  position: relative;
 }
 
 nav ul li:hover {
@@ -83,8 +84,41 @@ nav ul li:hover {
   border-radius: 3px;
   transition: 0.3s;
 }
+.drop-down-menu-container {
+  position: absolute;
+  top: 100%;
+  display: none;
+  background-color: #eee;
+  border-radius: 7px;
+}
 
-nav ul li:hover a {
+.drop-down-menu-li:hover .drop-down-menu-container {
+  display: block;
+}
+
+.drop-down-menu {
+  display: flex;
+  flex-direction: column;
+}
+.drop-down-menu li {
+  margin: 0;
+  padding: 5px 20px;
+  margin: 5px 0;
+  width: 9rem;
+  border-radius: 5px;
+  text-emphasis-color: black;
+  color: black;
+}
+.drop-down-menu li:hover {
+  background-color: blue;
+  margin: 0;
+}
+
+.drop-down-menu li a {
+  display: block;
+}
+
+nav ul li:hover > a {
   color: white;
 }
 

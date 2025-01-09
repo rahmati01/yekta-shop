@@ -33,6 +33,7 @@
 body {
   direction: rtl;
   font-family: vazir-matn;
+  max-width: 1200px;
 }
 
 ul {
@@ -534,4 +535,133 @@ header-btn:hover {
   width: 30px;
   height: 30px;
   padding: 0 5px;
+}
+
+/* responsive max width 400px */
+@media screen and (max-width: 400px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  /* nav menu */
+  .nav-menu {
+    display: none;
+  }
+  header-btn {
+    position: absolute;
+    left: 1rem;
+  }
+
+  /* page-intro */
+
+  .page-intro {
+    width: 100%;
+    height: auto;
+  }
+
+  .page-intro-right {
+    width: 100%;
+    height: auto;
+  }
+
+  .page-intro-right h1 {
+    font-size: 2rem;
+    color: white;
+    font-weight: 300;
+    padding-top: 2rem;
+    text-align: center;
+  }
+
+  .page-intro-right-btns {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .page-intro-right-btn {
+    padding: 8px 15px;
+    margin: 25px 0 50px 10px;
+  }
+
+  .page-intro-left {
+    width: 0%;
+  }
+
+  /* new-product */
+  .new-products-container > h3 {
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: large;
+    text-align: center;
+  }
+
+  .new-product-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .new-product-card {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    border-radius: 5px;
+  }
+
+  /* advertising */
+
+  .home-ad-right {
+    width: 100%;
+  }
+  .home-ad-left {
+    display: none;
+  }
+
+  /* most sales */
+  .most-sales h3 {
+    text-align: center;
+  }
+
+  .most-sales-items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .most-sales-item {
+    width: 90%;
+  }
+
+  /* why us  */
+  .why-us-items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .why-us-item {
+    width: 90%;
+  }
+
+  /* footer */
+  .footer-columns {
+    flex-direction: column;
+    padding: 50px 0;
+  }
+
+  .footer-columns-second {
+    display: none;
+  }
+
+  .footer-columns-third {
+    margin: 30px 0;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-bottom-icons {
+    margin-top: 20px;
+  }
 }

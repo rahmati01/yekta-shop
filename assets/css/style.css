@@ -537,6 +537,21 @@ header-btn:hover {
   padding: 0 5px;
 }
 
+.breadcrumbs {
+  background-color: #eee;
+}
+
+.breadcrumbs-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.breadcrumbs-item img {
+  width: 20px;
+}
+
 /* responsive max width 400px */
 @media screen and (max-width: 400px) {
   .container {

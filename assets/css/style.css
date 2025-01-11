@@ -655,13 +655,16 @@ header-btn:hover {
 .color-red {
   color: red;
 }
+.color-green {
+  color: green;
+}
 
 .single-page-product-details-left-btn {
   padding: 20px;
 }
 
 .single-page-product-details-left-btn button {
-  width: 30%;
+  width: 50%;
   padding: 8px 20px;
   font-family: vazir-matn;
   cursor: pointer;
@@ -675,6 +678,43 @@ header-btn:hover {
   background-color: aquamarine;
   outline: none;
 }
+
+.single-page-comments {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  background-color: #eee;
+}
+
+.single-page-comment {
+  display: flex;
+  flex-direction: row;
+}
+
+.single-page-comment-right {
+  width: 20%;
+  margin: 10px;
+}
+
+.single-page-comment-left {
+  margin-top: 50px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.single-page-comment-nameDate {
+  display: flex;
+  flex-direction: row;
+  align-items: first baseline;
+}
+
+.single-page-comment-nameDate h4 {
+  margin-left: 40px;
+}
+
 /* responsive max width 400px */
 @media screen and (max-width: 400px) {
   .container {
@@ -823,6 +863,14 @@ header-btn:hover {
   .single-page-product-details-left-btn button {
     width: 90%;
   }
+
+  .single-page-comment-right {
+    display: none;
+  }
+
+  .single-page-comment-left {
+    margin-top: 30px;
+  }
 }
 
 /* responsive max width 800px */
@@ -934,8 +982,6 @@ header-btn:hover {
     column-gap: 20px;
   }
 
-
-
   .footer-bottom {
     flex-direction: column;
     align-items: center;
@@ -950,8 +996,8 @@ header-btn:hover {
     height: 25px;
     padding: 0 5px;
   }
-  
-   /* single page */
+
+  /* single page */
   .single-page-product-details {
     display: flex;
     flex-direction: column;

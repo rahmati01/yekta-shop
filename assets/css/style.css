@@ -715,6 +715,126 @@ header-btn:hover {
   margin-left: 40px;
 }
 
+/* contact us page */
+
+.contact {
+  width: 100%;
+  background-color: #c6f3b8;
+  padding: 30px 0;
+}
+
+.contact h2 {
+  padding: 20px 0 40px 0;
+}
+.contact-getInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-getInfo-items {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-getInfo-item {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.contact-getInfo-item label {
+  font-weight: 300;
+  padding-bottom: 10px;
+  color: #444;
+}
+
+.contact-getInfo-item input {
+  width: 80%;
+  height: 2.5rem;
+  outline: none;
+  font-size: large;
+}
+
+.contact-getInfo-message {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-getInfo-message label {
+  font-weight: 300;
+  padding-bottom: 10px;
+  color: #444;
+}
+.contact-getInfo-message textarea {
+  width: 90%;
+  min-height: 150px;
+}
+
+.contact-getInfo-btn input {
+  margin-top: 20px;
+  padding: 8px 16px;
+  width: 10%;
+  font-family: vazir-matn;
+  cursor: pointer;
+  background-color: lightseagreen;
+  border-radius: 4px;
+}
+
+.contact-getInfo-btn input:hover {
+  background-color: skyblue;
+}
+
+.contact-info {
+  width: 100%;
+  background-color: #d8edf9;
+}
+
+.contact-info-container {
+  display: flex;
+}
+
+.contact-info-right {
+  width: 50%;
+}
+
+.contact-info-left {
+  width: 50%;
+}
+
+.contact-info-right h4 {
+  padding: 20px 0;
+  font-weight: 600;
+}
+
+.contact-info-right-item {
+  display: flex;
+  align-items: end;
+  padding: 20px 10px 10px 0;
+}
+
+.contact-info-right-item img {
+  width: 30px;
+  height: auto;
+}
+
+.contact-info-right hr {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.contact-info-right p {
+  padding: 20px 10px 0 0;
+}
+
+.contact-info-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* responsive max width 400px */
 @media screen and (max-width: 400px) {
   .container {
@@ -870,6 +990,29 @@ header-btn:hover {
 
   .single-page-comment-left {
     margin-top: 30px;
+  }
+
+  /* contact us */
+  .contact-getInfo-items {
+    flex-direction: column;
+  }
+
+  .contact-getInfo-item {
+    width: 100%;
+  }
+  .contact-getInfo-item input {
+    width: 90%;
+  }
+  .contact-getInfo-btn input {
+    width: 90%;
+  }
+
+  .contact-info-right {
+    width: 100%;
+  }
+
+  .contact-info-left {
+    display: none;
   }
 }
 

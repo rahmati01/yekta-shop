@@ -1011,6 +1011,36 @@ header-btn:hover {
   margin: 10px 10px 10px 0;
 }
 
+/* about Us */
+.aboutUs-Main {
+  display: flex;
+  align-items: center;
+}
+
+.aboutUs-text {
+  width: 50%;
+}
+
+.aboutUs-text h3 {
+  padding: 10px 0;
+}
+
+.aboutUs-text p {
+  text-align: justify;
+  line-height: 3rem;
+  color: #213555;
+}
+
+.aboutUs-icon {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutUs-icon img {
+  width: 70%;
+}
+
 /* responsive max width 400px */
 @media screen and (max-width: 400px) {
   .container {
@@ -1021,7 +1051,8 @@ header-btn:hover {
   .nav-menu {
     display: none;
   }
-  header-btn {
+
+  .header-btn {
     position: absolute;
     left: 1rem;
   }
@@ -1258,6 +1289,19 @@ header-btn:hover {
     font-weight: 200;
     font-size: small;
     text-shadow: #444;
+  }
+
+  /* about Us */
+  .aboutUs-Main {
+    flex-direction: column;
+  }
+
+  .aboutUs-text {
+    width: 90%;
+  }
+
+  .aboutUs-icon {
+    width: 90%;
   }
 }
 

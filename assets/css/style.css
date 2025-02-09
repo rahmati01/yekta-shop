@@ -141,7 +141,7 @@ header-btn {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: blue;
+  background-color: rgb(161, 161, 228);
   border: none;
   outline: 0;
   padding: 11px 8px;
